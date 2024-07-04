@@ -1,0 +1,18 @@
+.todo-button {
+	width: 3rem;
+	height: 2rem;
+	border-radius: .5rem;
+	border: 1px solid var(--main-border-color);
+	cursor: pointer;
+}
+
+.todo-button--type-delete,
+.todo-button--type-cancel {
+	background-color: #ff0000;
+	color: var(--font-color2);
+}
+
+.todo-button--type-complete {
+	background-color: green;
+	color: #fff;
+}

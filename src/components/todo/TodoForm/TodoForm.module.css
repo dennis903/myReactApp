@@ -1,0 +1,26 @@
+.todo-form {
+	display: flex;
+	gap: 1rem;
+	padding: 1rem;
+}
+
+.todo-form__input {
+	width: 30rem;
+	height: 3rem;
+	border-radius: .5rem;
+	border: 1px solid var(--main-border-color);
+	padding: 1rem;
+	font-size: 1.2rem;
+}
+
+.todo-form__submit {
+	width: 5rem;
+	height: 3rem;
+	font-size: 1.2rem;
+	background-color: var(--main-bg-color);
+	font-weight: 500;
+	border-radius: .5rem;
+	color: var(--font-color2);
+	border: 1px solid var(--main-border-color);
+	cursor: pointer;
+}

@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+*, *::after, *::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--main-bg-color: #b06dbf;
+	--font-color1: #1b1b1b;
+	--font-color2: #fff;
+	--main-border-color: #b3afaf;
+}
+
+.todo {
+	min-width: 30rem;
+	height: auto;
+	border: 1px solid var(--main-border-color);
+	border-radius: 1rem;
+	overflow: hidden;
+}
+
+.todo-title {
+	text-align: center;
+	padding: 1rem 0;
+	background-color: var(--main-bg-color);
+	color: var(--font-color2);
+}
